@@ -1,9 +1,9 @@
 package app.grapheneos.setupwizard
 
-import android.app.Application
+import jOS.Core.jLIBCoreApp
 import android.content.Context
 
-class App : Application() {
+class App : jLIBCoreApp() {
 
     override fun attachBaseContext(base: Context) {
         super.attachBaseContext(base)
