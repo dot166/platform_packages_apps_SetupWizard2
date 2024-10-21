@@ -21,7 +21,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.SetupWizard"
-        tools:ignore="MissingApplicationIcon">
+        tools:ignore="MissingApplicationIcon"
+        tools:replace="android:name,android:theme"
+        tools:remove="android:icon">
 
         <activity
             android:name="app.grapheneos.setupwizard.view.activity.WelcomeActivity"

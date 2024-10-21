@@ -15,6 +15,7 @@ android_app {
         "androidx.core_core",
         "setupcompat",
         "setupdesign",
+        "jLib",
     ],
 
     required: ["etc_permissions_app.grapheneos.setupwizard"],
