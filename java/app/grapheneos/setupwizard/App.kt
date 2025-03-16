@@ -1,6 +1,6 @@
 package app.grapheneos.setupwizard
 
-import io.github.dot166.jLib.app.jLIBCoreApp
+import io.github.dot166.jlib.app.jLIBCoreApp
 import android.content.Context
 
 class App : jLIBCoreApp() {
