@@ -33,7 +33,6 @@ object SetupWizard {
         DateTimeActivity::class.java,
         LocationActivity::class.java,
         SecurityActivity::class.java,
-        UpdaterSecurityPreviewActivity::class.java,
         MigrationActivity::class.java,
         GesturesActivity::class.java,
         FinishActivity::class.java
