@@ -63,4 +63,9 @@
     <string name="oem_unlock_ack_risks">I understand the security risks of not locking my bootloader.</string>
     <string name="disable_oem_unlocking">Disable OEM unlocking</string>
     <string name="disable_oem_unlocking_desc">It\'s recommended to disable OEM unlocking to improve device security</string>
+    <!-- nexus -->
+    <string name="extra_steps">Extra Steps</string>
+    <string name="dark_theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
 </resources>

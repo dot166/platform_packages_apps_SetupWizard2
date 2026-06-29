@@ -14,5 +14,7 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.WRITE_SETTINGS"/>
         <permission name="com.stevesoltys.seedvault.RESTORE_BACKUP"/>
+        <!-- nexus -->
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
     </privapp-permissions>
 </permissions>
