@@ -12,7 +12,6 @@ import com.google.android.setupdesign.R
 import com.google.android.setupdesign.util.ThemeHelper
 import app.grapheneos.setupwizard.appContext
 import app.grapheneos.setupwizard.view.activity.DateTimeActivity
-import app.grapheneos.setupwizard.view.activity.ExtraActivity
 import app.grapheneos.setupwizard.view.activity.FinishActivity
 import app.grapheneos.setupwizard.view.activity.GesturesActivity
 import app.grapheneos.setupwizard.view.activity.LocationActivity
@@ -22,6 +21,7 @@ import app.grapheneos.setupwizard.view.activity.SetupWizardActivity
 import app.grapheneos.setupwizard.view.activity.UpdaterSecurityPreviewActivity
 import app.grapheneos.setupwizard.view.activity.WelcomeActivity
 import app.grapheneos.setupwizard.view.activity.WifiActivity
+import com.android.settingslib.spa.framework.BrowseActivity
 
 object SetupWizard {
 
@@ -36,7 +36,7 @@ object SetupWizard {
         SecurityActivity::class.java,
         MigrationActivity::class.java,
         GesturesActivity::class.java,
-        ExtraActivity::class.java,
+        BrowseActivity::class.java, // Extras screen(s)
         FinishActivity::class.java
     )
     private val secondaryUserActivities = listOf<Class<out Activity>>(
@@ -44,7 +44,7 @@ object SetupWizard {
         LocationActivity::class.java,
         SecurityActivity::class.java,
         MigrationActivity::class.java,
-        ExtraActivity::class.java,
+        BrowseActivity::class.java,
         FinishActivity::class.java
     )
 
